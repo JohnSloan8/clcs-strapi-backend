@@ -112,3 +112,8 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+############################
+# Deploying to Heroku (https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/heroku.html#_3-create-a-new-project-or-use-an-existing-one)
+############################
+package.lock

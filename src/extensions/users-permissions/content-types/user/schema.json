@@ -66,11 +66,13 @@
     "registered": {
       "type": "boolean",
       "default": false,
-      "required": true
+      "required": true,
+      "configurable": false
     },
     "reason": {
       "type": "string",
-      "configurable": false
+      "configurable": false,
+      "private": true
     }
   }
 }

@@ -67,11 +67,11 @@
       "type": "boolean",
       "default": false,
       "required": true,
-      "configurable": false
+      "configurable": true
     },
     "reason": {
       "type": "string",
-      "configurable": false,
+      "configurable": true,
       "private": true
     }
   }

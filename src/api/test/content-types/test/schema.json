@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "text": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "blanks": {
       "type": "richtext"
@@ -31,7 +32,8 @@
       "inversedBy": "tests"
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "test_type": {
       "type": "relation",
@@ -40,11 +42,12 @@
       "inversedBy": "tests"
     },
     "recording": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

@@ -67,6 +67,10 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "reason": {
+      "type": "string",
+      "configurable": false
     }
   }
 }

@@ -4,8 +4,8 @@ module.exports = ({ env }) => ({
     config: {
       provider: "aws-s3",
       providerOptions: {
-        accessKeyId: "-",
-        secretAccessKey: "-",
+        accessKeyId: env("AWSAccessKeyId"),
+        secretAccessKey: env("AWSSecretKey"),
         region: "eu-west-1",
         params: {
           Bucket: "clcsawsbucket",

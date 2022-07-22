@@ -17,7 +17,8 @@
       "required": true
     },
     "blanks": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": "N/A"
     },
     "language": {
       "type": "relation",

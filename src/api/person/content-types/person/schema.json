@@ -21,13 +21,8 @@
     "Email": {
       "type": "email"
     },
-    "Picture": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+    "ImageURL": {
+      "type": "string"
     }
   }
 }

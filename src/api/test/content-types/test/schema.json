@@ -42,13 +42,8 @@
       "target": "api::test-type.test-type",
       "inversedBy": "tests"
     },
-    "recording": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "audios"
-      ]
+    "recordingURL": {
+      "type": "string"
     }
   }
 }
